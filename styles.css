@@ -11,6 +11,7 @@ body {
 	border-radius:5px;
 	margin-bottom:10px;
 	outline:none;
+	text-align:right;
 }
 .button-group{
     display: grid;
