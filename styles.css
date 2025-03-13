@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+body {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	height:100vh;
+}
+#display{
+	width:100%;
+	height:50px;
+	border-radius:5px;
+	margin-bottom:10px;
+	outline:none;
+}
+.button-group{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+button{
+	width:50px;
+	height:50px;
+	/* border:none; */
+	cursor: pointer;
+	/* border-radius:10px; */
+}
+#equal{
+	background-color:blue;
+	color:white;
+}
